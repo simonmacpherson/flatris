@@ -22,7 +22,7 @@
     "dev:server": "babel-node server/start-dev-server.js",
     "dev:server:watch": "nodemon server/start-dev-server.js  --exec babel-node",
     "build": "env-cmd next build web",
-    "start": "env-cmd -f babel-node server/start-prod.js"
+    "start": "env-cmd babel-node server/start-prod.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
